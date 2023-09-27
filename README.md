@@ -25,4 +25,6 @@ This app allows users to track stock prices of popular beauty stocks.
 
 ## License
 
-MIT License
+## License
+
+This project is licensed under the [MIT License](LICENSE).
