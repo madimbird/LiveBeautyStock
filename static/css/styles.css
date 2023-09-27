@@ -1,0 +1,58 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color */
+body {
+    background-color: #f2f2f2; /* Light gray background */
+    font-family: Arial, sans-serif; /* Use a standard sans-serif font */
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff66b2; /* Pink background */
+    color: #fff; /* White text color */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style the stock info container */
+.stock-info {
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Light gray border */
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Style the stock symbol */
+.stock-info p:nth-child(odd) {
+    font-weight: bold;
+    color: #333; /* Dark text color */
+}
+
+/* Style the stock price */
+.stock-info p:nth-child(even) {
+    color: #ff66b2; /* Pink text color */
+    font-size: 20px;
+}
+
+/* Style the last updated timestamp */
+.stock-info p:last-child {
+    color: #777; /* Gray text color */
+}
+
+/* Style links */
+a {
+    color: #ff66b2; /* Pink link color */
+    text-decoration: none;
+}
+
+/* Hover effect for links */
+a:hover {
+    text-decoration: underline;
+}
