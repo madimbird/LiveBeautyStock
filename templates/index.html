@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Tracker</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+    <h1>Live Beauty Stock Price Tracker</h1>
+    {% for symbol in stock_symbols %}
+    <div class="stock-info">
+        <p>Stock Symbol: {{ symbol }}</p>
+        <p>Price: ${{ stock_data[symbol]['price'] }}</p>
+        <p>Last Updated: {{ stock_data[symbol]['timestamp'] }}</p>
+    </div>
+    {% endfor %}
+</body>
+</html>
